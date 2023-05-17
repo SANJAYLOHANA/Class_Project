@@ -13,7 +13,7 @@ class myproject2 extends myProject1{
     return sub;
    }
 }
-class myproject3 extends myProject2{
+class myproject3 extends myproject2{
    int multi;
    int my_Calculator3(int num1, int num2){
     multi = num1 * num2;
@@ -22,7 +22,7 @@ class myproject3 extends myProject2{
 }
 public class My_Project { 
 public static void main(String[] args) {
-     myproject2 my = new myproject2();
+     myproject3 my = new myproject3();
      System.out.println("The Sum Of Given Integers Is: "+my.my_Calculator(10, 20));
      System.out.println("The Sub Of Given Integers Is: "+my.my_Calculator2(20, 10));
      System.out.println("The Sub Of Given Integers Is: "+my.my_Calculator3(20, 10));
